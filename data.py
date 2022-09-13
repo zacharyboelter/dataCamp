@@ -1,3 +1,6 @@
-import numpy
+import numpy as np
 
-numpy.array([1, 2, 3, 4])
+np.array([1, 2, 3, 4])
+
+np_height = np.array([])
+
