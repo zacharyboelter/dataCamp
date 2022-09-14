@@ -57,13 +57,40 @@
 # Write a code that gives out the total amount for different days(d).
 
 
-def rental_car_cost(d):
-    total = d * 40
+# def rental_car_cost(d):
+#     total = d * 40
     
-    if d > 0 and d < 3:
-        return total
-    elif d >= 7:
-        return total - 50
-    else:
-        return total - 20
+#     if d > 0 and d < 3:
+#         return total
+#     elif d >= 7:
+#         return total - 50
+#     else:
+#         return total - 20
         
+
+# ~~~~~~~~~~~ remove every second element from list ~~~~~~~~~~~~
+
+def remove_every_other(my_list):
+    return my_list[::2]             #this 
+    pass
+
+
+
+
+# seq[::n] is a sequence of each n-th item in the entire sequence.
+
+# Example:
+
+# >>> range(10)[::2]
+# [0, 2, 4, 6, 8]
+
+# The syntax is:
+
+# seq[start:end:step]
+
+# So you can do (in Python 2):
+
+# >>> range(100)[5:18:2]
+# [5, 7, 9, 11, 13, 15, 17]
+
+
